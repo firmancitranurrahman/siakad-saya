@@ -24,7 +24,7 @@
 					<li><a class="" href="<?=base_url('admin/nilaisiswaipa')?>">
 						<span class="fa fa-arrow-right">&nbsp;</span> Jurusan Ipa
 					</a></li>
-					<li><a class="" href="#">
+					<li><a class="" href="<?=base_url('admin/nilaisiswaips')?>">
 						<span class="fa fa-arrow-right">&nbsp;</span> Jurusan Ips
 					</a></li>
 				</ul>

@@ -4,13 +4,13 @@
 				<li><a href="#">
 					<em class="fa fa-home"></em>
 				</a></li>
-				<li class="active">Nilai Ipa</li>
+				<li class="active">Nilai Ips</li>
 			</ol>
 		</div>
         <!--/.row-->
         <div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Nilai Ipa</h1>
+				<h1 class="page-header">Nilai Ips</h1>
 			</div>
 		</div>
         <!--/.row-->
@@ -18,7 +18,9 @@
         <div class="panel-heading">
             <i class="fa fa-external-link-square"></i> Input Nilai 
              </div>
-             <div class="form-group">
+            <div class="form-group">
+            </div>
+            <div class="form-group">
   <label for="mtk">Matematika:</label>
   <input type="number" class="form-control" id="mtk">
   <label for="agm">Agama:</label>
@@ -27,15 +29,15 @@
   <input type="number" class="form-control" id="bind">
   <label for="bing">Bahasa Inggris:</label>
   <input type="number" class="form-control" id="bind">
-  <label for="fis">Fisika</label>
-  <input type="number" class="form-control" id="fis">
-  <label for="kim">Kimia:</label>
-  <input type="number" class="form-control" id="kim">
-  <label for="bio">Biologi:</label>
-  <input type="number" class="form-control" id="bio">
+  <label for="sej">Sejarah</label>
+  <input type="number" class="form-control" id="sej">
+  <label for="geo">Geografi:</label>
+  <input type="number" class="form-control" id="geo">
+  <label for="eko">Ekonomi:</label>
+  <input type="number" class="form-control" id="eko">
   <label for="olr">Olahraga:</label>
   <input type="number" class="form-control" id="olr">
-</div>
+</div> 
  <button type="button" class="btn btn-success">Posting</button>
     <button type="button" class="btn btn-danger">Reset</button> 
    

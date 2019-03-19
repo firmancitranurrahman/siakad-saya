@@ -86,7 +86,7 @@
 					</div>
 				</div>
 			</div>
-		</div><!--/.row-->
+	 	</div><!--/.row-->
 		<div class="row">
 			<div class="col-md-6">
 				<div class="panel panel-default chat">
@@ -95,7 +95,7 @@
 						<ul class="pull-right panel-settings panel-button-tab-right">
 							<li class="dropdown"><a class="pull-right dropdown-toggle" data-toggle="dropdown" href="#">
 							<em class="fa fa-cogs"></em>
-							</a>
+						</a>
 								<ul class="dropdown-menu dropdown-menu-right">
 									<li>
 										<ul class="dropdown-settings">
@@ -249,7 +249,7 @@
 			<div class="col-md-6">
 				<div class="panel panel-default ">
 					<div class="panel-heading">
-						Timeline
+						Pengumuman
 						<ul class="pull-right panel-settings panel-button-tab-right">
 							<li class="dropdown"><a class="pull-right dropdown-toggle" data-toggle="dropdown" href="#">
 								<em class="fa fa-cogs"></em>
@@ -324,31 +324,4 @@
 					</div>
 				</div>
 			</div><!--/.col-->
-			<div class="col-sm-12">
-				<p class="back-link">Lumino Theme by <a href="https://www.medialoot.com">Medialoot</a></p>
-			</div>
-		</div><!--/.row-->
-	</div>	<!--/.main-->
-	
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/chart.min.js"></script>
-	<script src="js/chart-data.js"></script>
-	<script src="js/easypiechart.js"></script>
-	<script src="js/easypiechart-data.js"></script>
-	<script src="js/bootstrap-datepicker.js"></script>
-	<script src="js/custom.js"></script>
-	<script>
-		window.onload = function () {
-	var chart1 = document.getElementById("line-chart").getContext("2d");
-	window.myLine = new Chart(chart1).Line(lineChartData, {
-	responsive: true,
-	scaleLineColor: "rgba(0,0,0,.2)",
-	scaleGridLineColor: "rgba(0,0,0,.05)",
-	scaleFontColor: "#c5c7cc"
-	});
-};
-	</script>
 		
-</body>
-</html>

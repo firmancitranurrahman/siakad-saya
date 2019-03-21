@@ -9,7 +9,7 @@
 		</div>
 <form>
 <div class="form-group-input-group">
-			<label for="nis">NIS :</label>
+			<label for="nis">NIP :</label>
 			<input type="text" class="form-control" id="nis">
 		</div>
 		<div class="form-group">
@@ -29,21 +29,21 @@
             <textarea type="text" class="form-control" id="alamat"></textarea>
         </div>
         <div class="form-group">
-            <label for="Kelas">Kelas:</label>
+            <label for="Kelas">Mengajar:</label>
         <select class="form-control">
-            <option value="" disabled selected>pilih kelas</option>
-            <option value="10ipa1">10-Ipa-1</option>
-            <option value="10ipa2">10-Ipa-2</option>
-            <option value="11ipa1">11-Ipa-1</option>
-            <option value="11ipa2">11-Ipa-2</option>
-            <option value="12ipa1">12-Ipa-1</option>
-            <option value="12ipa2">12-Ipa-2</option>
-            <option value="10ips1">10-Ips-1</option>
-            <option value="10ips2">10-Ips-2</option>
-            <option value="11ips1">11-Ips-1</option>
-            <option value="11ips2">11-Ips-2</option>
-            <option value="12ips1">12-Ips-1</option>
-            <option value="12ips2">12-Ips-2</option>  
+            <option value="" disabled selected>Mata Pelajaran</option>
+            <option value="">Bahasa Indonesia</option>
+            <option value="">Bahasa Inggris</option>
+            <option value="">Biologi</option>
+            <option value="">Sejarah</option>
+            <option value="">Kimia</option>
+            <option value="">Geografi</option>
+            <option value="">Fisika</option>
+            <option value="">Ekonomi</option>
+            <option value="">Matematika</option>
+            <option value="">Pendidikan Kewarganegaraan</option>
+            <option value="">Seni Budaya</option>
+            <option value="">Prakarya</option>  
         </select>
     </div>
     <div class="form-group">

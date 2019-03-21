@@ -28,6 +28,12 @@
         $this->load->view('template/sidebar');
         $this->load->view('template/footer'); 
     }
+    public function addguru(){
+        $this->load->view('template/header');
+        $this->load->view('admin/addguru');
+        $this->load->view('template/sidebar');
+        $this->load->view('template/footer'); 
+    }
     public function statusspp(){
         $this->load->view('template/header');
         $this->load->view('admin/statusspp');

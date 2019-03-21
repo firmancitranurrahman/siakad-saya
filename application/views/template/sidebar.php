@@ -16,9 +16,9 @@
 			</div>
 		</form>
         <ul class="nav menu">
-			<li class="active"><a href="index.html"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
+			<li class="active"><a href="index.php"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
 			<li class="parent "><a data-toggle="collapse" href="#sub-item-1">
-				<em class="fa fa-navicon">&nbsp;</em> Nilai Siswa <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
+				<em class="fa fa-calculator">&nbsp;</em> Nilai Siswa <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
                 </a>
                 <ul class="children collapse" id="sub-item-1">
 					<li><a class="" href="<?=base_url('admin/nilaisiswaipa')?>">
@@ -29,9 +29,20 @@
 					</a></li>
 				</ul>
 			</li>
-			<li><a href="charts.html"><em class="fa fa-bar-chart">&nbsp;</em> Charts</a></li>
-			<li><a href="elements.html"><em class="fa fa-toggle-off">&nbsp;</em> UI Elements</a></li>
-            <li><a href="panels.html"><em class="fa fa-clone">&nbsp;</em> Alerts &amp; Panels</a></li>
+			<li><a href="<?=base_url('admin/statusspp')?>"><em class="fa fa-money">&nbsp;</em> Status Pembayaran Spp</a></li>
+            <li><a href=""><em class="fa fa-exclamation">&nbsp;</em>Pengumuman</a></li>
+			<li class="parent "><a data-toggle="collapse" href="#sub-item-2">
+				<em class="fa fa-calculator">&nbsp;</em> Tambah data <span data-toggle="collapse" href="#sub-item-2" class="icon pull-right"><em class="fa fa-plus"></em></span>
+                </a>
+                <ul class="children collapse" id="sub-item-2">
+					<li><a class="" href="<?=base_url('admin/tambahguru')?>">
+						<span class="fa fa-arrow-right">&nbsp;</span>Tambah Data Guru
+					</a></li>
+					<li><a class="" href="<?=base_url('admin/tambahsiswa')?>">
+						<span class="fa fa-arrow-right">&nbsp;</span> Tambah Data Siswa
+					</a></li>
+				</ul>
+			</li>
 			<li><a href="login.html"><em class="fa fa-power-off">&nbsp;</em> Logout</a></li>
         </ul>
         </div><!--/.sidebar-->
